@@ -4,9 +4,9 @@ spring:
   - dev
 --- 
 spring:
-profiles: dev
-  application:  
-  name: microservicecloud-config-sunline-dev
+  profiles: dev
+  application:
+  name: microservicecloud-config-sunline-dev  
 ---
   spring: 
   profiles: test  #测试环境
