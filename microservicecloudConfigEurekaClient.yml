@@ -30,7 +30,7 @@ server:  
 spring:  
   profiles:  test
   application:  
-    name:  microservicecloud-config-eureka-client
+    name:  microservicecloudConfigEurekaClient
     
 eureka:
   #server:
@@ -38,9 +38,9 @@ eureka:
   instance:
     hostname: eureka7001.com #localhost #eureka实例名称
   client:
-    register-with-eureka: false 
+    registerWithEureka: false 
     #false 不向注册中心注册自己
-    fetch-registry: false 
+    fetchRegistry: false 
     #表示自己就是注册中西 我的职责即使维护服务实例 不需要去检索服务
     serviceUrl:
         #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址查询服务和注册服务
