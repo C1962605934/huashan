@@ -1,16 +1,12 @@
-spring: 
-    profiles:   
-     active:    
-      - dev 
-server:    
-  port:  7001 
+server:    
+  port:  7001 
 #注册中心占用7001端口,冒号后面必须要有空格
-   
-spring:  
-  profiles:  dev
-  application:
-    name:  microservicecloudConfigEurekaClient
-    
+   
+spring:  
+  profiles:  dev
+  application:
+    name:  microservicecloudConfigEurekaClient
+    
 eureka:
   #server:
    # enable-self-preservation: false
@@ -27,15 +23,15 @@ eureka:
         #集群配置
         defaultZone: http://eureka7001.com:7001/eureka/
 
-server:  
-  port:  7001 
+server:  
+  port:  7001 
 #注册中心占用7001端口,冒号后面必须要有空格
-   
-spring:  
-  profiles:  test
-  application:  
-    name:  microservicecloudConfigEurekaClient
-    
+   
+spring:  
+  profiles:  test
+  application:  
+    name:  microservicecloudConfigEurekaClient
+    
 eureka:
   #server:
    # enable-self-preservation: false
