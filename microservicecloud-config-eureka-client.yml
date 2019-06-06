@@ -17,7 +17,7 @@ eureka:
     #false 不向注册中心注册自己
     fetch-registry: false 
     #表示自己就是注册中西 我的职责即使维护服务实例 不需要去检索服务
-    service-url:
+    serviceUrl:
         #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址查询服务和注册服务
         #集群配置
         defaultZone: http://eureka7001.com:7001/eureka/
@@ -40,7 +40,7 @@ eureka:
     #false 不向注册中心注册自己
     fetch-registry: false 
     #表示自己就是注册中西 我的职责即使维护服务实例 不需要去检索服务
-    service-url:
+    serviceUrl:
         #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址查询服务和注册服务
         #集群配置
         defaultZone: http://eureka7001.com:7001/eureka/
